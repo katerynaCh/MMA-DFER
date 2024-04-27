@@ -3,6 +3,8 @@
 This repository provides an official implementation for the paper [MMA-DFER: MultiModal Adaptation of unimodal models for Dynamic Facial Expression Recognition in-the-wild]( 
 https://arxiv.org/abs/2404.09010).
 
+![a](https://github.com/katerynaCh/av-emotion-recognition-in-the-wild/blob/main/fff.drawio.png)
+
 ## Installation
 
 Please create an environment with Python 3.10 and use requirements file to install the rest of the libraries
