@@ -18,7 +18,7 @@ pip install -r reqiurements.txt
 
 ## Data preparation
 
-We provide the codes for [DFEW](https://dfew-dataset.github.io/) and [MAFW](https://mafw-database.github.io/MAFW/) datasets, which you would need to download. Then, please refer to DFER-CLIP repository for transforming the annotations that are provided in annotations/ folder. To extract faces from MAFW dataset, please refer to data_utils.
+We provide the codes for [DFEW](https://dfew-dataset.github.io/) and [MAFW](https://mafw-database.github.io/MAFW/) datasets, which you would need to download. Then, please refer to DFER-CLIP repository for transforming the annotations that are provided in annotations/ folder. To extract faces from MAFW dataset, please refer to data_utils. Please also download pre-trained checkpoints for vision encoder from https://github.com/FuxiVirtualHuman/MAE-Face and for audio encoder from https://github.com/facebookresearch/AudioMAE
 
 ## Running the code
 
