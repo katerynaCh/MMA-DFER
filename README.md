@@ -18,7 +18,9 @@ pip install -r reqiurements.txt
 
 ## Data preparation
 
-We provide the codes for [DFEW](https://dfew-dataset.github.io/) and [MAFW](https://mafw-database.github.io/MAFW/) datasets, which you would need to download. Then, please refer to DFER-CLIP repository for transforming the annotations that are provided in annotations/ folder. To extract faces from MAFW dataset, please refer to data_utils. Please also download pre-trained checkpoints for vision encoder from https://github.com/FuxiVirtualHuman/MAE-Face and for audio encoder from https://github.com/facebookresearch/AudioMAE
+We provide the codes for [DFEW](https://dfew-dataset.github.io/) and [MAFW](https://mafw-database.github.io/MAFW/) datasets, which you would need to download. Then, please refer to DFER-CLIP repository for transforming the annotations that are provided in annotations/ folder to your own paths. To extract faces from MAFW dataset, please refer to data_utils that has an example of face detection pipeline. 
+
+You will also need to download pre-trained checkpoints for vision encoder from [https://github.com/FuxiVirtualHuman/MAE-Face](https://github.com/FuxiVirtualHuman/MAE-Face/releases) and for audio encoder from [https://github.com/facebookresearch/AudioMAE](https://drive.usercontent.google.com/download?id=1ni_DV4dRf7GxM8k-Eirx71WP9Gg89wwu&export=download&authuser=0) Please extract them and rename the audio checkpoint to 'audiomae_pretrained.pth'. Both checkpoints are expected to be in root folder.
 
 ## Running the code
 
