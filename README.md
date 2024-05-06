@@ -32,6 +32,13 @@ The main script in main.py. You can invoke it through running:
 ./train_MAFW.sh
 ```
 
+## Evaluation
+
+You can download pre-trained models on DFEW from [here](https://drive.google.com/drive/folders/1I3dvClr4oVH3h5cGmaFXmTc8aV-nYHof?usp=sharing). **Please respect the dataset license when downloading the models!** Evaluation can be done as follows:
+```bash
+python evaluate.py --fold $FOLD --checkpoint $CHECKPOINT_PATH --img-size $IMG_SIZE
+```
+
 ## References
 This repository is based on DFER-CLIP https://github.com/zengqunzhao/DFER-CLIP. We also thank the authors of MAE-Face https://github.com/FuxiVirtualHuman/MAE-Face and Audiomae https://github.com/facebookresearch/AudioMAE
 
