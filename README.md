@@ -34,7 +34,7 @@ The main script in main.py. You can invoke it through running:
 
 ## Evaluation
 
-You can download pre-trained models on DFEW from [here](https://drive.google.com/drive/folders/1I3dvClr4oVH3h5cGmaFXmTc8aV-nYHof?usp=sharing). **Please respect the dataset license when downloading the models!** Evaluation can be done as follows:
+You can download pre-trained models on DFEW from [here](https://drive.google.com/drive/folders/1I3dvClr4oVH3h5cGmaFXmTc8aV-nYHof?usp=sharing) and on MAFW from [here](https://drive.google.com/drive/folders/1I5baHCpBdU5RT48yaFyNhnZoQkbHm-OS?usp=sharing). **Please respect the dataset license when downloading the models!** Evaluation can be done as follows:
 ```bash
 python evaluate.py --fold $FOLD --checkpoint $CHECKPOINT_PATH --img-size $IMG_SIZE --dataset [MAFW|DFEW]
 ```
