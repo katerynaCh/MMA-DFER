@@ -57,7 +57,6 @@ def main(set, args):
         print("*********** MAFW Dataset Fold  " + str(data_set) + " ***********")
         test_annotation_file_path = "./annotation/MAFW_set_"+str(data_set)+"_test_faces.txt"
         args.number_class = 11      
-
     model = GenerateModel(args=args)
     model = torch.nn.DataParallel(model).cuda()
     test_data = test_data_loader(list_file=test_annotation_file_path,
